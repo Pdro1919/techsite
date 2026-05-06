@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vortex</title>
+    <style>
+    body {
+        background: linear-gradient(to right, #000000, #333333, #000000);
+    }
+    .containerfooter {
+        position: sticky;
+        padding: 20px;
+        top: 0;
+        display: flex;
+        width: 90%;
+        height: 25px;
+        background-color: rgb(39, 33, 33);
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #22D3EE;
+        border-radius: 10px;
+        margin: 0 auto;
+        box-shadow: 0 0 10px #00eaff;
+
+    }
+    .containerfooter h1 {
+        color: #8be5f3;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    }
+    .container {
+        position: sticky;
+        padding: 20px;
+        top: 0;
+        display: flex;
+        width: 90%;
+        background-color: rgb(39, 33, 33);
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #22D3EE;
+        border-radius: 10px;
+        margin: 0 auto;
+        box-shadow: 0 0 10px #00eaff;
+
+    }
+    .container h1 {
+        color: #8be5f3;
+        font-size: 48px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    }
+    .card{
+        text-align: center;
+        display: inline-block;
+        background-color: rgb(39, 33, 33);
+        border: 2px solid #22D3EE;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 0 0 10px #00eaff;
+        transition: 0.3s;
+        width:calc(20% - 20px);
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px #00eaff;
+        box-shadow: 0 0 20px #00eaff;
+        box-shadow: 0 0 40px #00eaff;
+        border-color: #00ffff;
+    }
+    .card h2{
+        color: #8be5f3;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    }
+    .card hr {
+        margin: 10px 0;
+        color: #22D3EE;
+        box-shadow: 0 0 5px #00eaff;
+    }
+    a {
+        text-decoration: none;
+    }
+    img {
+        display: block;
+        margin: 0 auto 10px;
+    }
+    .logo {
+        display:flex;
+        align-items: center;
+        gap: 5px;
+
+    }
+    .logo img {
+        width: 48px;
+        height: 45px;
+    }
+    .logoft {
+        display:flex;
+        align-items: center;
+        gap: 5px;
+
+    }
+    .logoft img {
+        width: 15px;
+        height: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">V<img  src="https://cdn-icons-png.freepik.com/512/10201/10201535.png">rtex Store</h1>
+    </div>
+    <a href="perifericos.html" class="card">
+        <img src="https://images.kabum.com.br/produtos/fotos/sync_mirakl/938884/xlarge/Mouse-Gamer-Hoopson-Ms-052-LED-1200-Dpi-Design-Ergon-mico_1770926699.png" width="150" height="150" alt="Mouse Gamer Hoopson MS-052 LED 1200 DPI Design Ergonômico">
+        <hr>
+        <h2>Periféricos</h2>
+    </div>
+    <a href="celulares.html" class="card">
+        <img src="https://t.ctcdn.com.br/BrFLwxWJzAOqvugd3Y98rxk4e3g=/660x0/smart/filters:format(webp)/i608897.png" width="180" height="150" alt="Asus RogPhone 5s 256GB 16GB RAM Preto">
+        <hr>
+        <h2>Smartphones</h2>
+    </a>
+    <a href="consoles.html" class="card">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-pro-dualsense-image-block-01-en-16aug24?$facebook$" width="250" height="150" alt="Console Videogame PlayStation 5"  >
+        <hr>
+        <h2>Consoles</h2>
+    </a>
+    <a href="pcgamer.html" class="card">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/053/348/112/small/gaming-pc-with-rgb-blue-led-lights-isolated-on-transparent-background-png.png" width="150" height="150" alt="PC Gamer">
+        <hr>
+        <h2>PCs Gamer</h2>
+    </a>
+</body>
+<footer>
+    <div class="containerfooter">
+        <h1 class="logoft">© 2026 V<img  src="https://cdn-icons-png.freepik.com/512/10201/10201535.png">rtex Store. Todos os direitos reservados.</h1>
+    </div>
+</footer>
+</html>
